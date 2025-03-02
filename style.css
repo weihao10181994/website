@@ -1,0 +1,56 @@
+.slogan-1 {
+    margin: 0;
+    padding-top: 4.125rem;
+    font-size: 2.25rem;
+    font-weight: 300;
+    line-height: 1;
+}
+.slogan-2 {
+    margin: 0;
+    padding-bottom: 3rem;
+    font-size: 3rem;
+    font-weight: 300;
+}
+.home-heading {
+    margin: 0;
+    padding-left: 148px;
+    font-size: 1rem;
+    font-weight: 300;
+}
+.home-heading::before {
+    content: '';
+    display: block;
+    width: 136px;
+    height: 1px;
+    background-color: #ddd;
+    transform: translate(-148px, 8px);
+}
+.scene-title {
+    margin: 0;
+    padding-right: .5rem;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.scene-type {
+    border: 1px solid #929292;
+    border-radius: 4px;
+    padding: 0 .5rem;
+    color: #929292;
+    font-size: 14px;
+}
+
+.scene-input i {
+    position: absolute;
+    top: 14px;
+    left: 12px;
+    font-size: 1.5rem;
+    color: #929292;
+}
+
+.bg-gray{
+    background-color: rgba(221, 221, 221, .4);
+}
+.cta{
+    background-image: url(Group\ 5.jpg);
+    background-size: cover;
+}
